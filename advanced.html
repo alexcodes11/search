@@ -19,10 +19,36 @@
     </div>
     <div class="advform">
       <form action="https://google.com/search" method="get" name="f">
-        <input type="text" />
-        <input type="text" />
-        <input type="text" />
-        <input type="text" />
+        <div class="grid">
+          <div class="sections">
+            <label class="label">All These Words: </label>
+            <input type="text" class="advinput" />
+            <label class="none">Type the important words: tricolor rat terrier </label>
+          </div>
+
+          <div class="sections">
+            <label class="label">This exact word or phrase:</label>
+            <input type="text" class="advinput" />
+            <label class="none">Put exact words in quotes: "rat terrier"</label>
+          </div>
+
+          <div class="sections">
+            <label class="label">Any of these words: </label>
+            <input type="text" class="advinput" />
+            <label class="none"
+              >Type OR between all the words you want: miniature OR standard
+            </label>
+          </div>
+
+          <div class="sections">
+            <label class="label">None of these words:</label>
+            <input type="text" class="advinput" />
+            <label class="none"
+              >Put a minus sign just before words you don't want: -rodent,
+              -"Jack Russell"</label
+            >
+          </div>
+        </div>
       </form>
     </div>
   </body>

@@ -133,8 +133,34 @@ h1 {
 }
 
 .advform {
-  max-width: 1140px;
+  max-width: 1180px;
   min-width: 200px;
   width: 100%;
   margin: 40px 2% 0 60px;
 }
+@media screen and (max-width:1179px){
+  .none{
+    display: none;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.sections {
+  display: flex;
+  gap: 20px;
+}
+
+.advinput {
+  width: 40%;
+  height: 25px;
+}
+
+.label{
+width: 15%;
+}
+
