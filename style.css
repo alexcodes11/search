@@ -138,15 +138,14 @@ h1 {
   width: 100%;
   margin: 40px 2% 0 60px;
 }
-@media screen and (max-width:1179px){
-  .none{
+@media screen and (max-width: 1179px) {
+  .none {
     display: none;
   }
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 20px;
 }
 
@@ -154,13 +153,36 @@ h1 {
   display: flex;
   gap: 20px;
 }
+.section{
+  width: 180px;
+}
 
 .advinput {
   width: 40%;
   height: 25px;
 }
 
-.label{
-width: 15%;
+.label {
+  width: 15%;
 }
 
+.advbutton{
+ display: flex;
+ width: 41%;
+ justify-content: flex-end;
+}
+
+.none{
+  width: 500px
+}
+.button-blue{
+ background-color: dodgerblue;
+  color: white;
+  font-size: smaller;
+  max-width: 200px;
+  border-radius: 0px;
+  border: 1px solid #156bbd;
+  float: right;
+  padding: 10px 2px;
+  margin: 0;
+}
